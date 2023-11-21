@@ -2,12 +2,12 @@
   "name": "platform-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "sourceRoot": "apps/platfrom-e2e/src",
+  "sourceRoot": "apps/platform-e2e/src",
   "targets": {
     "e2e": {
       "executor": "@nx/cypress:cypress",
       "options": {
-        "cypressConfig": "apps/platfrom-e2e/cypress.config.ts",
+        "cypressConfig": "apps/platform-e2e/cypress.config.ts",
         "testingType": "e2e",
         "devServerTarget": "platform:serve",
         "baseUrl": "http://localhost:4200"
@@ -25,7 +25,7 @@
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/platfrom-e2e/**/*.{js,ts}"]
+        "lintFilePatterns": ["apps/platform-e2e/**/*.{js,ts}"]
       }
     }
   },

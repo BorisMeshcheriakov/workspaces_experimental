@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@platform/shared-styles": ["lib/shared-styles/main.scss"],
+      "@redux/state-programs": ["lib/state/state-programs/src/index.ts"],
+      "@redux/store": ["lib/state/store/src/index.ts"],
+      "clients/Module": ["apps/clients/src/remote-entry.ts"],
+      "programs/Module": ["apps/programs/src/remote-entry.ts"],
+      "@platform/entities": ["apps/platform/src/entities/index.ts"],
+      "@platform/pages": ["apps/platform/src/pages/index.ts"],
+      "@platform/features": ["apps/platform/src/features/index.ts"]
+    }
+  }
+}

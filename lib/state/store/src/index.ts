@@ -7,6 +7,8 @@ import {
 } from '@reduxjs/toolkit';
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
 
+import { programsReducer } from '@redux/state-programs';
+
 export const testSlice = createSlice({
   name: 'test',
   initialState: 0,

@@ -1,4 +1,5 @@
 {
+  "extends": "./tsconfig.paths.json",
   "compileOnSave": false,
   "compilerOptions": {
     "rootDir": ".",
@@ -13,12 +14,7 @@
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    "baseUrl": ".",
-    "paths": {
-      "@redux/store": ["lib/state/store/src/index.ts"],
-      "clients/Module": ["apps/clients/src/remote-entry.ts"],
-      "programs/Module": ["apps/programs/src/remote-entry.ts"]
-    }
+    "baseUrl": "."
   },
   "exclude": ["node_modules", "tmp"]
 }
